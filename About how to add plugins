@@ -1,0 +1,7 @@
+init.lua line 198
+do not uncomment the line, and create a new path /lua/custom/plugins under .config/nvim
+create a .lua file, only write(autoclose for example):
+return {
+  "m4xshen/autoclose.nvim",
+  config = function() require("autoclose").setup() end
+}
